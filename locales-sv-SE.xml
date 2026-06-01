@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <locale xmlns="http://purl.org/net/xbiblio/csl" version="1.0" xml:lang="sv-SE">
+<!-- Abbreviations are from: 1. https://kib.ki.se/skriva-referera/skriva-referenser-att-ange-kalla/referensguider/referensguide-apa-7 (cited hereafter as KIBa) -->
+<!--                         2. https://kib.ki.se/skriva-referera/skriva-referenser-att-ange-kalla/referensguider/referensguide-vancouver (cited hereafter as KIBv) -->
+<!--                         3. https://www.isof.se/namn/personnamn/sveriges-medeltida-personnamn/projektet-sveriges-medeltida-personnamn-smp/forkortningsordlista-smp (cited hereafter as ISOF) -->
+<!--                         4. https://www.dansk-og-svensk.dk/danskt_lexikon2/almindelige_svenske_forkortelser/forkortelser.htm (cited hereafter as DASV) -->
+<!-- in that order, with KIBa and KIBv taking precedence over ISOF where there are conflicts -->
+<!-- Note: ISOF (3) is published by the government Institute for Language and Folklore and should be a reputable source for common abbreviations -->
+<!-- Note: DASV (4) is least credible but has large selection of common abbreviations -->
+
   <info>
     <translator>
       <name>torfeur</name>
@@ -17,7 +25,7 @@
       <name>Julian Lenell</name>
     </translator>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
-    <updated>2026-06-01T19:16:57+00:00</updated>
+    <updated>2026-06-01T22:29:02+00:00</updated>
   </info>
   <style-options punctuation-in-quote="false"/>
   <date form="text">
@@ -40,36 +48,36 @@
     <term name="anonymous">anonym</term>
     <term name="at">vid</term>
     <term name="audio-recording">ljudinspelning</term>
-    <term name="available at">tillgänglig vid</term>
+    <term name="available at">tillgänglig vid</term> <!-- https://libguides.ub.uu.se/vancouver/webbsidor -->
     <term name="by">av</term>
     <term name="circa">cirka</term>
     <term name="cited">citerad</term>
-    <term name="et-al">m.fl.</term>
+    <term name="et-al">m.fl.</term> <!-- https://frageladan.isof.se/faqs/22965" "et al." is used but most commonly replaced by "m.fl." -->
     <term name="film">film</term>
     <term name="forthcoming">kommande</term>
     <term name="from">från</term>
     <term name="henceforth">hädanefter</term>
     <term name="ibid">ibid.</term>
     <term name="in">i</term>
-    <term name="in press">i tryck</term>
+    <term name="in press">under utgivning</term> <!--KIBv-->
     <term name="internet">internet</term>
     <term name="letter">brev</term>
     <term name="loc-cit">loc. cit.</term> <!-- like ibid., the abbreviated form is the regular form  -->
-    <term name="no date">utan årtal</term>
-    <term name="no-place">utan ort</term>
-    <term name="no-publisher">utan utgivare</term> <!-- sine nomine -->
+    <term name="no date">utan årtal</term> <!--KIBa-->
+    <term name="no-place">utan ort</term> <!--ISOF-->
+    <term name="no-publisher">utan utgivare</term>
     <term name="on"/>
     <term name="online">online</term>
     <term name="op-cit">op. cit.</term> <!-- like ibid., the abbreviated form is the regular form  -->
     <term name="original-work-published">originalarbete publicerat</term>
     <term name="personal-communication">personlig kommunikation</term>
     <term name="podcast">podcast</term>
-    <term name="podcast-episode">podcast episode</term>
+    <term name="podcast-episode">podcastavsnitt</term>
     <term name="preprint">preprint</term>
     <term name="presented at">presenterad vid</term>
     <term name="radio-broadcast">radiosändning</term>
-    <term name="radio-series">radio series</term>
-    <term name="radio-series-episode">radio series episode</term>
+    <term name="radio-series">radioföljetång</term>
+    <term name="radio-series-episode">avsnitt ur radioföljetång</term>
     <term name="reference">
       <single>referens</single>
       <multiple>referenser</multiple>
@@ -86,13 +94,11 @@
     <term name="working-paper">working paper</term>
 
     <!-- SHORT GENERAL TERMS -->
-    <term name="anonymous" form="short">anon.</term>
-    <term name="circa" form="short">ca</term>
-    <term name="no date" form="short">u.å.</term>
-    <term name="no-place" form="short">u.o.</term>
-    <term name="no-publisher" form="short">u.u.</term>
-    <term name="reference" form="short">ref.</term>
-    <term name="review-of" form="short">rec. av</term>
+    <term name="circa" form="short">ca</term> <!-- https://frageladan.isof.se/faqs/22140 -->
+    <term name="no date" form="short">u.å.</term> <!-- KIBa -->
+    <term name="no-place" form="short">u.o.</term> <!-- ISOF -->
+    <term name="reference" form="short">ref.</term> <!-- KIBa -->
+    <term name="review-of" form="short">rec. av</term> <!-- DASV -->
 
     <!-- SYMBOLIC GENERAL FORMS -->
 
@@ -163,8 +169,8 @@
     <!-- SHORT VERB ITEM TYPE FORMS -->
 
     <!-- HISTORICAL ERA TERMS -->
-    <term name="ad">e.Kr.</term>
-    <term name="bc">f.Kr.</term>
+    <term name="ad">e.Kr.</term> <!-- DASV -->
+    <term name="bc">f.Kr.</term> <!-- DASV -->
     <term name="bce">BCE</term>
     <term name="ce">CE</term>
 
@@ -309,29 +315,29 @@
     </term>
 
     <!-- SHORT LOCATOR FORMS -->
-    <term name="appendix" form="short">bil.</term>
+    <term name="appendix" form="short">bil.</term> <!-- ISOF -->
     <term name="article-locator" form="short">art.</term>
     <term name="book" form="short">bok</term>
-    <term name="chapter" form="short">kap.</term>
+    <term name="chapter" form="short">kap.</term> <!-- DASV -->
     <term name="column" form="short">kol.</term>
     <term name="elocation" form="short"/>
     <term name="equation" form="short">ekv.</term>
-    <term name="figure" form="short">fig.</term>
+    <term name="figure" form="short">fig.</term> <!-- DASV -->
     <term name="folio" form="short">f.</term>
-    <term name="issue" form="short">nr</term>
+    <term name="issue" form="short">nr</term> <!-- DASV -->
     <term name="line" form="short">rad</term>
     <term name="note" form="short">n.</term>
-    <term name="opus" form="short">op.</term>
-    <term name="page" form="short">s.</term>
-    <term name="paragraph" form="short">st.</term>
+    <term name="opus" form="short">op.</term> <!-- DASV -->
+    <term name="page" form="short">s.</term> <!-- KIBa -->
+    <term name="paragraph" form="short">st.</term> <!-- DASV -->
     <term name="part" form="short">del</term>
     <term name="section" form="short">avs.</term>
     <term name="sub-verbo" form="short">
       <single>s.v.</single>
       <multiple>s.vv.</multiple>
     </term>
-    <term name="supplement" form="short">suppl.</term>
-    <term name="table" form="short">tab.</term>
+    <term name="supplement" form="short">suppl.</term> <!-- ISOF -->
+    <term name="table" form="short">tab.</term> <!-- DASV -->
     <term name="timestamp" form="short"/> <!-- generally blank -->
     <term name="verse" form="short">
       <single>vers</single>
@@ -389,7 +395,7 @@
     <term name="number-of-pages" form="short">s.</term>
     <term name="number-of-volumes" form="short">vol.</term>
     <term name="page-first" form="short">s.</term>
-    <term name="printing" form="short">tryckn.</term>
+    <term name="printing" form="short">tr.</term> <!-- DASV -->
 
     <!-- LONG ROLE FORMS -->
     <term name="author"/> <!-- generally blank -->
